@@ -1,0 +1,18 @@
+# Dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# Production build
+/build
+
+# Environment variables
+.env
+
+# Ignore npm/yarn debug logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Ignore .DS_Store files
+.DS_Store
