@@ -13,7 +13,7 @@ const PORT = process.env.PORT || 8080;
 
 // Middleware
 app.use(cors({
-    origin: "http://localhost:3000",
+    origin: ["http://localhost:3000", "frontend-twitter-beta.vercel.app"],
     credentials: true
 }));
 app.use(express.json()); // This should come before routes
